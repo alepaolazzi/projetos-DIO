@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10vh;
+    background-image: linear-gradient(
+        90deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(232deg 94% 25%) 5%,
+        hsl(230deg 93% 29%) 9%,
+        hsl(229deg 92% 33%) 14%,
+        hsl(229deg 91% 36%) 18%,
+        hsl(228deg 91% 39%) 23%,
+        hsl(228deg 91% 41%) 27%,
+        hsl(228deg 91% 44%) 32%,
+        hsl(227deg 91% 46%) 36%,
+        hsl(227deg 90% 48%) 41%,
+        hsl(227deg 92% 50%) 45%,
+        hsl(227, 100%, 53%) 50%,
+        hsl(227deg 92% 50%) 55%,
+        hsl(227deg 90% 48%) 59%,
+        hsl(227deg 91% 46%) 64%,
+        hsl(228deg 91% 44%) 68%,
+        hsl(228deg 91% 41%) 73%,
+        hsl(228deg 91% 39%) 77%,
+        hsl(229deg 91% 36%) 82%,
+        hsl(229deg 92% 33%) 86%,
+        hsl(230deg 93% 29%) 91%,
+        hsl(232deg 94% 25%) 95%,
+        hsl(240deg 100% 20%) 100%
+      );
+      background-repeat: repeat;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(0, 0, 50);
+}
+
+.container {
+    box-shadow:  inset 0 0 1em #0f43ff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    height: auto;
+    width: 50vw;
+    margin: auto;
+    background-color: rgb(48, 218, 224);
+}
+
+.resultado {
+    text-align: center;
+    width: 37vw;
+    margin: 0 auto;
+    height: 50px;
+}
+
+form label {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+form input {
+    display: block;
+    justify-content: center;
+    margin: 5px auto; /* margin: 0 auto --- assim alinha o input no meio */
+    padding: 10px;
+    font-weight: 600;
+    width: 37vw;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 37vw;
+    height: 40px;
+    font-size: 120%;
+    border-radius: 10px;
+    background-color: rgb(5, 0, 33);
+    color: aqua;
+    border: none;
+    margin: 10px 0;
+    opacity: 0.9;
+    transition: .30s;
+}
+
+form button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+p {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* .paragrafo-resultado {
+    background: darkslategray;
+}
+
+.bad {
+    background: crimson;
+}
+ */
